@@ -82,6 +82,18 @@ void setup() {
   //bme2.setHumidityOversampling(BME680_OS_2X);
   //bme2.setPressureOversampling(BME680_OS_4X);
   bme2.setIIRFilterSize(BME680_FILTER_SIZE_3);
+
+  tcaSelect(2);
+  bme2.setTemperatureOversampling(BME680_OS_8X);
+  //bme2.setHumidityOversampling(BME680_OS_2X);
+  //bme2.setPressureOversampling(BME680_OS_4X);
+  bme2.setIIRFilterSize(BME680_FILTER_SIZE_3);
+
+  tcaSelect(3);
+  bme2.setTemperatureOversampling(BME680_OS_8X);
+  //bme2.setHumidityOversampling(BME680_OS_2X);
+  //bme2.setPressureOversampling(BME680_OS_4X);
+  bme2.setIIRFilterSize(BME680_FILTER_SIZE_3);
 }
 
 void loop() {
