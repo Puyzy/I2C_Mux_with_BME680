@@ -87,6 +87,8 @@ void setup() {
 void loop() {
   // Read data from BME680 sensor 1 on channel 0
 
+// sensor show on OLED display 
+
   // tcaSelect(0);
   // display.clearDisplay();
   // display.setTextSize(3);
